@@ -22,7 +22,7 @@ body::before {
       rgba(58, 58, 158, 0.8),
       rgba(136, 136, 206, 0.7)
     ),
-    url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    url(https://images.unsplash.com/photo-1661612117616-84b7fcf639d6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -80,6 +80,7 @@ input {
 .form-group {
   margin: 0 auto 1.25rem auto;
   padding: 0.25rem;
+  width: 50%;
 }
 
 .form-control {
@@ -104,7 +105,7 @@ input {
 .input-radio,
 .input-checkbox {
   display: inline-block;
-  margin-right: 0.625rem;
+  margin-left: 25%;
   min-height: 1.25rem;
   min-width: 1.25rem;
 }
